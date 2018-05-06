@@ -141,6 +141,15 @@ p {
 	position:relative;
 }
 
+/*modifyer della cover presente nelle single page*/
+.cover--single {
+  height: 50%;
+}
+
+.cover--single h1{
+  font-size: 50px;
+}
+
 /*
 #########################
 #
@@ -239,12 +248,47 @@ p {
   text-decoration: none;
   color:#fff;
   padding: 3px 0;
-  margin: 10px;
+  margin: 9px;
 }
 
 .footer__text a{
   text-decoration: none;
   color:#fff;
+}
+
+/*
+#########################
+#
+#       SIGLE PAGE
+#
+#########################
+*/
+
+.single__copy {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px 40px;
+  position: relative;
+  z-index: 1;
+  margin-top: -60px;
+}
+
+.single__copy__title {
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.single__copy__meta {
+  font-size: 10px;
+}
+
+.single__copy__meta a {
+  color: #7195ce;
+}
+
+.single__copy__meta a:hover {
+  color: #af52ab;
 }
 
 /*
@@ -286,6 +330,12 @@ p {
   /*footer*/
   .footer {height: 23%;}
   .footer__text {text-align: center;}
+
+  /*cover single pages*/
+  .cover--single {
+    height: 58%;
+  }
+
 }
 
 
